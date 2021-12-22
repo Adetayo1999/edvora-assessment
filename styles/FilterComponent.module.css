@@ -74,7 +74,7 @@
   outline: none;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .filterContainer {
     margin-bottom: 20px;
     width: initial;
