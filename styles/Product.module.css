@@ -1,0 +1,120 @@
+.product {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.container {
+  width: 90%;
+}
+
+.productName {
+  font-family: Roboto;
+  font-weight: 400;
+  padding-bottom: 0.4rem;
+  margin-bottom: 15px;
+  color: #ffffff;
+  font-size: 16px;
+  border-bottom: 1px solid rgba(203, 203, 203, 0.5);
+}
+
+.productsContainer {
+  height: 180px;
+  background: #131313;
+  border-radius: 15px;
+  display: flex;
+  padding: 0.6rem 0.9rem;
+  align-items: center;
+  overflow: scroll;
+  scroll-behavior: smooth;
+}
+.productsContainer::-webkit-scrollbar {
+  display: none;
+}
+
+.productCard {
+  min-width: 210px;
+  height: 150px;
+  background: #232323;
+  border-radius: 4.68775px;
+  margin-right: 15px;
+  padding: 0.6rem;
+}
+
+.productCardTop {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.productCardInfo {
+  margin-left: 15px;
+}
+
+.productCardInfo h4 {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
+  padding-bottom: 0.5rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 60px;
+}
+
+.productCardInfo p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  padding-bottom: 0.5rem;
+  color: rgba(255, 255, 255, 0.6);
+}
+.productCardInfo h5 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  color: #ffffff;
+}
+
+.productCardBottom > div {
+  display: flex;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.productCardBottom > div p:first-of-type {
+  margin-right: 25px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.productCardBottom > div p:last-of-type span {
+  font-family: SFProMedium;
+}
+
+.productCardDesc {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.productNavigator {
+  position: absolute;
+  top: 50%;
+  right: 0;
+}
+.productNavigator button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: transparent;
+}
+
+.productCardImage {
+  width: 70px;
+  height: 70px;
+  border-radius: 4px;
+}

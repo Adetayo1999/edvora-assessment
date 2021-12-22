@@ -1,9 +1,23 @@
-html,
-body {
-  padding: 0;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+@font-face {
+  font-family: SFProDefault;
+  src: url(../fonts/SFPRODISPLAYREGULAR.OTF);
+}
+@font-face {
+  font-family: SFProMedium;
+  src: url(../fonts/SFPRODISPLAYMEDIUM.OTF);
+}
+
+@font-face {
+  font-family: SFProBold;
+  src: url(../fonts/SFPRODISPLAYBOLD.OTF);
+}
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 a {
@@ -11,6 +25,8 @@ a {
   text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
+body {
+  font-size: 72.5%;
+  font-family: SFProDefault;
+  background-color: #292929;
 }
