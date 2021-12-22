@@ -2,16 +2,16 @@
 
 @font-face {
   font-family: SFProDefault;
-  src: url(../fonts/SFPRODISPLAYREGULAR.OTF);
+  src: url(../public/fonts/SFPRODISPLAYREGULAR.OTF);
 }
 @font-face {
   font-family: SFProMedium;
-  src: url(../fonts/SFPRODISPLAYMEDIUM.OTF);
+  src: url(../public/fonts/SFPRODISPLAYMEDIUM.OTF);
 }
 
 @font-face {
   font-family: SFProBold;
-  src: url(../fonts/SFPRODISPLAYBOLD.OTF);
+  src: url(../public/fonts/SFPRODISPLAYBOLD.OTF);
 }
 
 * {
