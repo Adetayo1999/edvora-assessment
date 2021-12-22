@@ -2,6 +2,7 @@ import React from "react";
 import { FilterConsumer } from "../pages/context";
 import styles from "../styles/MainComponent.module.css";
 import Product from "./Product";
+import Spinner from "./Spinner";
 
 function MainComponent({ uniqueProduct, allProducts }) {
   const [state, dispatch] = FilterConsumer();
@@ -12,7 +13,7 @@ function MainComponent({ uniqueProduct, allProducts }) {
         <h3>Products</h3>
       </div>
       {uniqueProduct.length < 1 ? (
-        <p>Loading...</p>
+        <Spinner />
       ) : (
         uniqueProduct
           .filter((item) => {

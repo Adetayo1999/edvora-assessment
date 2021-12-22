@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "../styles/FilterComponent.module.css";
-import FilterInput from "./FIlterInput";
+import FilterInput from "./FilterInput";
 
 const FilterComponent = ({ allProducts, uniqueProduct }) => {
   return (
