@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React, { createRef } from "react";
-import { FilterConsumer } from "../pages/context";
+import { FilterConsumer } from "../context";
 import styles from "../styles/Product.module.css";
 
 function Product({ unique, allProducts }) {

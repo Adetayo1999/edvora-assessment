@@ -1,6 +1,6 @@
 import "../styles/globals.css";
-import FilterProvider from "./context";
-import reducer, { initialState } from "./context/reducer";
+import FilterProvider from "../context";
+import reducer, { initialState } from "../context/reducer";
 
 function MyApp({ Component, pageProps }) {
   return (

@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { FilterConsumer } from "../pages/context";
+import { FilterConsumer } from "../context";
 import styles from "../styles/FilterComponent.module.css";
 
 const FilterInput = ({ filter, allProducts, uniqueProduct }) => {

@@ -1,5 +1,5 @@
 import React from "react";
-import { FilterConsumer } from "../pages/context";
+import { FilterConsumer } from "../context";
 import styles from "../styles/MainComponent.module.css";
 import Product from "./Product";
 import Spinner from "./Spinner";
